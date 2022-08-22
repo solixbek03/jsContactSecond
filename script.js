@@ -61,6 +61,12 @@ elForm.addEventListener("submit", function(evt) {
   let InputTelVall = elInputTel.value.trim();
   let InputDateVall = elInputDate.value.trim();
 
+  elInputName.value = "";
+  elInputSurname.value = "";
+  elInputEmail.value = "";
+  elInputTel.value = "";
+  elInputDate.value = "";
+
   let contact = {
     name: InputNameVall,
     surName: InputSurameVall,
